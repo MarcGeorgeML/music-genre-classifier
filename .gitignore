@@ -1,0 +1,5 @@
+Data/
+data_with_labels.csv
+# Ignore the Data directory and its contents
+archive.zip
+# Ignore the archive.zip file
