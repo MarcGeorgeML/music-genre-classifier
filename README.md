@@ -29,22 +29,28 @@
   - [ Installation](#-installation)
   - [ Usage](#-usage)
   - [ Testing](#-testing)
-- [ Project Roadmap](#-project-roadmap)
 - [ Contributing](#-contributing)
-- [ License](#-license)
 - [ Acknowledgments](#-acknowledgments)
 
 ---
 
 ##  Overview
 
-<code>❯ REPLACE-ME</code>
+<code>❯ This repository provides a full pipeline for building a music genre classification model:
+
+- **Data preprocessing** via a Jupyter notebook (`preprocessing.ipynb`)
+- **Training** a CNN model saved as `Trained_model.keras`
+- **Recorded training history** in `training_hist.json`</code>
 
 ---
 
 ##  Features
 
-<code>❯ REPLACE-ME</code>
+<code>❯ 
+- Converts audio into model-friendly features
+- Trains a CNN for genre classification
+- Outputs a serialized trained model for inference
+- Logs loss/metric history for review</code>
 
 ---
 
@@ -68,19 +74,19 @@
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/MarcGeorgeML/music-genre-classifier/blob/master/Trained_model.keras'>Trained_model.keras</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ Trained CNN model weights</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/MarcGeorgeML/music-genre-classifier/blob/master/requirement.txt'>requirement.txt</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ Python dependencies</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/MarcGeorgeML/music-genre-classifier/blob/master/preprocessing.ipynb'>preprocessing.ipynb</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ Notebook for audio prep & feature engineering</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/MarcGeorgeML/music-genre-classifier/blob/master/training_hist.json'>training_hist.json</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ Model training history (metrics per epoch)</code></td>
 			</tr>
 			</table>
 		</blockquote>
@@ -115,26 +121,10 @@ Install music-genre-classifier using one of the following methods:
 
 3. Install the project dependencies:
 
-echo 'INSERT-INSTALL-COMMAND-HERE'
+echo 'pip install -r requirements.txt'
 
 
 
-###  Usage
-Run music-genre-classifier using the following command:
-echo 'INSERT-RUN-COMMAND-HERE'
-
-###  Testing
-Run the test suite using the following command:
-echo 'INSERT-TEST-COMMAND-HERE'
-
----
-##  Project Roadmap
-
-- [X] **`Task 1`**: <strike>Implement feature one.</strike>
-- [ ] **`Task 2`**: Implement feature two.
-- [ ] **`Task 3`**: Implement feature three.
-
----
 
 ##  Contributing
 
@@ -179,14 +169,8 @@ echo 'INSERT-TEST-COMMAND-HERE'
 
 ---
 
-##  License
-
-This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
-
----
-
 ##  Acknowledgments
 
-- List any resources, contributors, inspiration, etc. here.
-
+- Used the GTzan dataset from kaggle: [GTZAN Dataset on Kaggle](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification/data)
+- The project playlist on youtube: [Project Demo Playlist on YouTube](https://www.youtube.com/playlist?list=PLvz5lCwTgdXCd200WNDupTMo15DP9iryv)
 ---
