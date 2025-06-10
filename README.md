@@ -42,7 +42,8 @@
 
 ##  Features
 
-<p>❯ 
+<p>
+
 - Converts audio into model-friendly features
 - Trains a CNN for genre classification
 - Outputs a serialized trained model for inference
