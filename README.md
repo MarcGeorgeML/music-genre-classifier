@@ -2,9 +2,6 @@
 <img src="https://img.icons8.com/?size=512&id=55494&format=png" align="right" width="30%" style="margin: -20px 0 0 20px;">
 <h1>MUSIC-GENRE-CLASSIFIER</h1>
 <p align="left">
-	<em><code>❯ REPLACE-ME</code></em>
-</p>
-<p align="left">
 	<img src="https://img.shields.io/github/license/MarcGeorgeML/music-genre-classifier?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
 	<img src="https://img.shields.io/github/last-commit/MarcGeorgeML/music-genre-classifier?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
 	<img src="https://img.shields.io/github/languages/top/MarcGeorgeML/music-genre-classifier?style=default&color=0080ff" alt="repo-top-language">
