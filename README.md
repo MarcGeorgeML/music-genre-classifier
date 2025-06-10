@@ -1,5 +1,4 @@
 <div align="left" style="position: relative;">
-<img src="https://img.icons8.com/?size=512&id=55494&format=png" align="right" width="30%" style="margin: -20px 0 0 20px;">
 <h1>MUSIC-GENRE-CLASSIFIER</h1>
 <p align="left">
 	<img src="https://img.shields.io/github/last-commit/MarcGeorgeML/music-genre-classifier?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
