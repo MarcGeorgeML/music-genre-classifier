@@ -32,11 +32,11 @@
 
 ##  Overview
 
-<code>❯ This repository provides a full pipeline for building a music genre classification model:
+<p>❯ This repository provides a full pipeline for building a music genre classification model:
 
 - **Data preprocessing** via a Jupyter notebook (`preprocessing.ipynb`)
 - **Training** a CNN model saved as `Trained_model.keras`
-- **Recorded training history** in `training_hist.json`</code>
+- **Recorded training history** in `training_hist.json`</p>
 
 ---
 
